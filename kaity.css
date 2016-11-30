@@ -1,0 +1,83 @@
+body {
+	background-color: #ffffff;
+}
+
+.site-logo {
+	color: #122caa;
+	font-family:; 
+	font-size:;
+	
+
+}
+
+.site-logo span{
+	color: #000005;
+	font-family:;
+	font-size:; 
+	
+}
+
+nav {
+	border-top: solid 1px #e0e2e5;
+	border-bottom: solid 1px #e0e2e5;
+	padding: 13px 0;
+	
+	
+}
+
+nav li {
+	text-decoration: none;
+	display: inline-block;
+	
+}
+
+nav li a {
+	text-decoration: none;
+	letter-spacing: 2px;
+	font-size: 11px;
+	font-family: sans-serif;
+	padding-right: 30px;
+}
+	
+
+article h3 {
+	color: #000005;
+}
+
+article img.resize {
+	max-width: 300px;
+	height: auto;
+	
+}
+
+aside{
+	float: right;
+	display: inline-block;
+	margin: auto;
+
+	
+}
+
+#contact_form {
+  width: 300px;
+  height: 317px;
+  background-color: #e0e2e5;
+  border: 1px color: #122caa;
+  margin-top: 10px;
+  margin-left: 5px;
+
+}
+
+form {
+  margin-bottom: 1em;
+}
+
+form {
+  display: block;
+  margin-top: 0em;
+}
+
+h4 {
+  color: #000005;
+  
+  }
