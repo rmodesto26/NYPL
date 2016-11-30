@@ -58,56 +58,26 @@ aside{
 	
 }
 
-#heights.txtinput { 
-  display: block;
-  font-family: sans-serif;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #e0e2e5;
-  margin: auto;
-  margin-bottom: 20px;
-  font-size: 1.55em;
-  padding: 11px 25px;
-  padding-left: 55px;
-  width: 30%;
-  color: #000005;
-
-}
-   
-#heights.txtblock {
-  display: block;
-  font-family: sans-serif;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #e0e2e5;
-  margin: auto;
-  margin-bottom: 20px;
-  font-size: 1.55em;
-  padding: 11px 25px;
-  padding-left: 55px;
-  width: 30%;
-  color: #000005;
-
-}
-
-
-button {
-  display: block;
-  text-align: center;
-  font-family: "Helvetica Neue", Arial, sans-serif;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #B20CAA;
+#contact_form {
+  width: 300px;
+  height: 317px;
   background-color: #e0e2e5;
-  margin: auto;
-  margin-left: 420px;
-  margin-bottom: 20px;
-  font-size: 1.55em;
-  padding: 11px 25px;
-  padding-left: 55px;
-  width: 37%;
-  color: #000005;
+  border: 1px color: #122caa;
+  margin-top: 10px;
+  margin-left: 5px;
+
 }
 
+form {
+  margin-bottom: 1em;
+}
 
+form {
+  display: block;
+  margin-top: 0em;
+}
 
+h4 {
+  color: #000005;
+  
+  }

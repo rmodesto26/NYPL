@@ -19,16 +19,21 @@
 				</ul>
 			</nav>
 
-			<form name="heights" id="heights" method="post" action="#">
-                <div id="wrapping" class="clearfix"><section id="aligned">
-                    <input type="text" name="name" id="name" placeholder="Your name" autocomplete="off" tabindex="1" class="txtinput">
-                    <input type="email" name="email" id="email" placeholder="Your e-mail address" autocomplete="off" tabindex="2" class="txtinput">
-                    <textarea name="message" id="message" placeholder="Enter questions..." tabindex="5" class="txtblock"></textarea>
-                    <form action="/" method="post"><button>Submit</button>
-                    </form>
-                   </section>
-                </div>
-             </form>
+			<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+				<div class="row">
+					<label for="name">Your name:</label><br />
+					<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+				</div>
+				<div class="row">
+					<label for="email">Your email:</label><br />
+					<input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+				</div>
+				<div class="row">
+					<label for="message">Your message:</label><br />
+					<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+				</div>
+				<input id="submit_button" type="submit" value="Send" />
+             </form>						
          </body>
 </html>
         
